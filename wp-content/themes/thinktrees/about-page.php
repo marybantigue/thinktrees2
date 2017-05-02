@@ -4,10 +4,8 @@
  * Description: About Page template
  */
 
-get_header(); ?>
-<div class="banner-common" style="background-image: url( <?php header_image(); ?>); min-height: 250px;">
-  
-</div>
+get_header(); 
+get_template_part( 'partials/banner' );?>
 	<!-- site-content -->
 	<div class="site-content clearfix">
 

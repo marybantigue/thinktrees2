@@ -180,7 +180,9 @@ h6 {
 }
 /* Banner */
 /*Banner New*/
-
+.banner {
+  min-height: 250px;
+}
 .banner .banner-content {
   padding:250px 15px 180px;
 }

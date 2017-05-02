@@ -2,6 +2,7 @@
 
 function thinktrees_resources() {
 	wp_enqueue_style('style', get_stylesheet_uri());
+	wp_enqueue_style('slider', get_template_directory_uri()."/styles/slider.css");
   wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
 	// wp_enqueue_style( 'wpb-google-fonts', 'http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300', false );
 
@@ -205,4 +206,39 @@ function ourWidgetsInit() {
 add_action('widgets_init', 'ourWidgetsInit');
 
 
-//Custom Post Type : Testimonials
+//Custom Post Type : Slider
+function thinktrees_slider() {
+
+	/**
+	 * Post Type: Testimonials.
+	 */
+
+	$labels = array(
+		"name" => __( 'Slider Items', '' ),
+		"singular_name" => __( 'Slider Item', '' ),
+	);
+
+	$args = array(
+		"label" => __( 'Slider Item', '' ),
+		"labels" => $labels,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => array( "slug" => "slider", "with_front" => true ),
+		"query_var" => true,
+		"supports" => array( "title" ),
+	);
+
+	register_post_type( "slider", $args );
+}
+
+add_action( 'init', 'thinktrees_slider' );

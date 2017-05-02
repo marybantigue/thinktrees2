@@ -24,7 +24,17 @@
 									<ul class="nav navbar-nav navbar-right">
 											<li><a href="#">Online Store</a></li>
 											<li><a href="#">0 Itesm(s) - $0.00</a></li>
-											<li><a href="<?php echo wp_login_url(); ?>" title="Login" class="login">Login</a></li>
+											<li>
+												<?php 
+													if ( is_user_logged_in() ) {
+												        $current_user = wp_get_current_user(); ?>
+												       
+												       	<a href="" title="Login" class="login"><?php 	echo $current_user->display_name ; ?></a>
+												    <?php } else { ?>
+												    	<a href="<?php echo wp_login_url(); ?>" title="Login" class="login">Login</a>
+												    <?php }
+											    ?>
+											</li>
 									</ul>
 
 							</div>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 02, 2017 at 03:55 PM
+-- Generation Time: May 02, 2017 at 06:08 PM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -217,10 +217,10 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (141, 'theme_switched', '', 'yes'),
 (155, 'cptui_new_install', 'false', 'yes'),
 (156, 'cptui_post_types', 'a:1:{s:11:"testimonial";a:28:{s:4:"name";s:11:"testimonial";s:5:"label";s:12:"Testimonials";s:14:"singular_label";s:11:"Testimonial";s:11:"description";s:0:"";s:6:"public";s:4:"true";s:18:"publicly_queryable";s:4:"true";s:7:"show_ui";s:4:"true";s:17:"show_in_nav_menus";s:4:"true";s:12:"show_in_rest";s:5:"false";s:9:"rest_base";s:0:"";s:11:"has_archive";s:5:"false";s:18:"has_archive_string";s:0:"";s:19:"exclude_from_search";s:5:"false";s:15:"capability_type";s:4:"post";s:12:"hierarchical";s:5:"false";s:7:"rewrite";s:4:"true";s:12:"rewrite_slug";s:0:"";s:17:"rewrite_withfront";s:4:"true";s:9:"query_var";s:4:"true";s:14:"query_var_slug";s:0:"";s:13:"menu_position";s:0:"";s:12:"show_in_menu";s:4:"true";s:19:"show_in_menu_string";s:0:"";s:9:"menu_icon";s:0:"";s:8:"supports";a:1:{i:0;s:5:"title";}s:10:"taxonomies";a:0:{}s:6:"labels";a:23:{s:9:"menu_name";s:0:"";s:9:"all_items";s:0:"";s:7:"add_new";s:0:"";s:12:"add_new_item";s:0:"";s:9:"edit_item";s:0:"";s:8:"new_item";s:0:"";s:9:"view_item";s:0:"";s:10:"view_items";s:0:"";s:12:"search_items";s:0:"";s:9:"not_found";s:0:"";s:18:"not_found_in_trash";s:0:"";s:17:"parent_item_colon";s:0:"";s:14:"featured_image";s:0:"";s:18:"set_featured_image";s:0:"";s:21:"remove_featured_image";s:0:"";s:18:"use_featured_image";s:0:"";s:8:"archives";s:0:"";s:16:"insert_into_item";s:0:"";s:21:"uploaded_to_this_item";s:0:"";s:17:"filter_items_list";s:0:"";s:21:"items_list_navigation";s:0:"";s:10:"items_list";s:0:"";s:10:"attributes";s:0:"";}s:15:"custom_supports";s:0:"";}}', 'yes'),
-(150, '_site_transient_timeout_theme_roots', '1493738452', 'no'),
-(151, '_site_transient_theme_roots', 'a:4:{s:10:"thinktrees";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:15:"twentyseventeen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}', 'no'),
+(172, '_site_transient_timeout_theme_roots', '1493748367', 'no'),
+(173, '_site_transient_theme_roots', 'a:4:{s:10:"thinktrees";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";s:15:"twentyseventeen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}', 'no'),
 (137, 'auto_core_update_notified', 'a:4:{s:4:"type";s:7:"success";s:5:"email";s:22:"marybantigue@gmail.com";s:7:"version";s:5:"4.7.4";s:9:"timestamp";i:1493734400;}', 'no'),
-(116, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1493737549;s:7:"checked";a:4:{s:10:"thinktrees";s:3:"1.0";s:13:"twentyfifteen";s:3:"1.7";s:15:"twentyseventeen";s:3:"1.1";s:13:"twentysixteen";s:3:"1.3";}s:8:"response";a:1:{s:15:"twentyseventeen";a:4:{s:5:"theme";s:15:"twentyseventeen";s:11:"new_version";s:3:"1.2";s:3:"url";s:45:"https://wordpress.org/themes/twentyseventeen/";s:7:"package";s:61:"https://downloads.wordpress.org/theme/twentyseventeen.1.2.zip";}}s:12:"translations";a:0:{}}', 'no'),
+(116, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1493746569;s:7:"checked";a:4:{s:10:"thinktrees";s:3:"1.0";s:13:"twentyfifteen";s:3:"1.7";s:15:"twentyseventeen";s:3:"1.1";s:13:"twentysixteen";s:3:"1.3";}s:8:"response";a:1:{s:15:"twentyseventeen";a:4:{s:5:"theme";s:15:"twentyseventeen";s:11:"new_version";s:3:"1.2";s:3:"url";s:45:"https://wordpress.org/themes/twentyseventeen/";s:7:"package";s:61:"https://downloads.wordpress.org/theme/twentyseventeen.1.2.zip";}}s:12:"translations";a:0:{}}', 'no'),
 (117, '_site_transient_timeout_browser_456ff99049b62eedba15cb53df907d1b', '1494339174', 'no'),
 (118, '_site_transient_browser_456ff99049b62eedba15cb53df907d1b', 'a:9:{s:8:"platform";s:7:"Windows";s:4:"name";s:6:"Chrome";s:7:"version";s:12:"58.0.3029.81";s:10:"update_url";s:28:"http://www.google.com/chrome";s:7:"img_src";s:49:"http://s.wordpress.org/images/browsers/chrome.png";s:11:"img_src_ssl";s:48:"https://wordpress.org/images/browsers/chrome.png";s:15:"current_version";s:2:"18";s:7:"upgrade";b:0;s:8:"insecure";b:0;}', 'no');
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
@@ -280,9 +280,9 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (7, 2, '_wp_trash_meta_time', '1493734846'),
 (8, 2, '_wp_desired_post_slug', 'sample-page'),
 (9, 7, '_edit_last', '1'),
-(10, 7, '_edit_lock', '1493738363:1'),
+(10, 7, '_edit_lock', '1493742672:1'),
 (11, 9, '_edit_last', '1'),
-(12, 9, '_edit_lock', '1493734724:1'),
+(12, 9, '_edit_lock', '1493743447:1'),
 (13, 11, '_edit_last', '1'),
 (14, 11, '_edit_lock', '1493734737:1'),
 (15, 13, '_edit_last', '1'),
@@ -420,9 +420,9 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (158, 50, '_company_website', 'field_5908a0eca00f5'),
 (159, 50, 'photo', '43'),
 (160, 50, '_photo', 'field_5908a10fa00f6'),
-(161, 50, '_edit_lock', '1493739502:1'),
+(161, 50, '_edit_lock', '1493741622:1'),
 (162, 7, '_wp_page_template', 'about-page.php'),
-(165, 51, '_edit_lock', '1493739693:1'),
+(165, 51, '_edit_lock', '1493742247:1'),
 (166, 51, 'name', 'John Doe'),
 (167, 51, '_name', 'field_5908a085a00f2'),
 (168, 51, 'testimonial', 'Sed a lacus rhoncus, ullamcorper nisl in, semper ligula. Duis a ultricies magna, maximus egestas lorem. Sed porta nunc a tellus faucibus fermentum.'),
@@ -432,7 +432,54 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (172, 51, 'company_website', 'http://johndoe.com'),
 (173, 51, '_company_website', 'field_5908a0eca00f5'),
 (174, 51, 'photo', '41'),
-(175, 51, '_photo', 'field_5908a10fa00f6');
+(175, 51, '_photo', 'field_5908a10fa00f6'),
+(176, 52, '_wp_attached_file', '2017/05/anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900.jpg'),
+(177, 52, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:1600;s:6:"height";i:900;s:4:"file";s:81:"2017/05/anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900.jpg";s:5:"sizes";a:7:{s:9:"thumbnail";a:4:{s:4:"file";s:81:"anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:81:"anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:81:"anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900-768x432.jpg";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:82:"anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:15:"small-thumbnail";a:4:{s:4:"file";s:81:"anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900-180x120.jpg";s:5:"width";i:180;s:6:"height";i:120;s:9:"mime-type";s:10:"image/jpeg";}s:16:"square-thumbnail";a:4:{s:4:"file";s:79:"anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900-80x80.jpg";s:5:"width";i:80;s:6:"height";i:80;s:9:"mime-type";s:10:"image/jpeg";}s:12:"banner-image";a:4:{s:4:"file";s:81:"anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900-920x210.jpg";s:5:"width";i:920;s:6:"height";i:210;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
+(178, 7, '_thumbnail_id', '52'),
+(179, 53, '_wp_attached_file', '2017/05/17091346_120300002367929247_581375062_o.jpg'),
+(180, 53, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:1365;s:6:"height";i:2048;s:4:"file";s:51:"2017/05/17091346_120300002367929247_581375062_o.jpg";s:5:"sizes";a:7:{s:9:"thumbnail";a:4:{s:4:"file";s:51:"17091346_120300002367929247_581375062_o-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:51:"17091346_120300002367929247_581375062_o-200x300.jpg";s:5:"width";i:200;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:52:"17091346_120300002367929247_581375062_o-768x1152.jpg";s:5:"width";i:768;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:52:"17091346_120300002367929247_581375062_o-683x1024.jpg";s:5:"width";i:683;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}s:15:"small-thumbnail";a:4:{s:4:"file";s:51:"17091346_120300002367929247_581375062_o-180x120.jpg";s:5:"width";i:180;s:6:"height";i:120;s:9:"mime-type";s:10:"image/jpeg";}s:16:"square-thumbnail";a:4:{s:4:"file";s:49:"17091346_120300002367929247_581375062_o-80x80.jpg";s:5:"width";i:80;s:6:"height";i:80;s:9:"mime-type";s:10:"image/jpeg";}s:12:"banner-image";a:4:{s:4:"file";s:51:"17091346_120300002367929247_581375062_o-920x210.jpg";s:5:"width";i:920;s:6:"height";i:210;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
+(181, 9, '_thumbnail_id', '53'),
+(182, 9, '_wp_page_template', 'default'),
+(183, 55, '_edit_last', '1'),
+(184, 55, 'field_5908bad90055f', 'a:14:{s:3:"key";s:19:"field_5908bad90055f";s:5:"label";s:6:"Header";s:4:"name";s:6:"header";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}'),
+(185, 55, 'field_5908bafc00560', 'a:11:{s:3:"key";s:19:"field_5908bafc00560";s:5:"label";s:8:"Subtitle";s:4:"name";s:8:"subtitle";s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:7:"toolbar";s:4:"full";s:12:"media_upload";s:3:"yes";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}'),
+(204, 55, 'rule', 'a:5:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:6:"slider";s:8:"order_no";i:0;s:8:"group_no";i:0;}'),
+(187, 55, 'position', 'normal'),
+(188, 55, 'layout', 'no_box'),
+(189, 55, 'hide_on_screen', ''),
+(190, 55, '_edit_lock', '1493746453:1'),
+(191, 56, '_edit_last', '1'),
+(192, 56, '_edit_lock', '1493748129:1'),
+(200, 55, 'field_5908bf13cb0f0', 'a:11:{s:3:"key";s:19:"field_5908bf13cb0f0";s:5:"label";s:16:"Background Image";s:4:"name";s:16:"background_image";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"save_format";s:3:"url";s:12:"preview_size";s:4:"full";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}'),
+(195, 56, 'header', 'We are creative'),
+(196, 56, '_header', 'field_5908bad90055f'),
+(197, 56, 'subtitle', '<h3>Get start your next awesome project</h3>\r\n<button class="btn btn-hero btn-lg">See all features</button>'),
+(198, 56, '_subtitle', 'field_5908bafc00560'),
+(202, 58, '_edit_last', '1'),
+(203, 58, '_edit_lock', '1493748292:1'),
+(205, 58, '_oembed_39c8c78bbe56d56cc256ce20e9a5ad3e', '{{unknown}}'),
+(206, 58, 'header', 'We are smart'),
+(207, 58, '_header', 'field_5908bad90055f'),
+(208, 58, 'subtitle', '<h3>Get start your next awesome project</h3>\r\n<button class="btn btn-hero btn-lg">See all features</button>'),
+(209, 58, '_subtitle', 'field_5908bafc00560'),
+(210, 58, 'background_image', '62'),
+(211, 58, '_background_image', 'field_5908bf13cb0f0'),
+(214, 59, '_edit_last', '1'),
+(212, 56, 'background_image', '61'),
+(213, 56, '_background_image', 'field_5908bf13cb0f0'),
+(215, 59, '_edit_lock', '1493748102:1'),
+(216, 59, 'header', 'We are awesome'),
+(217, 59, '_header', 'field_5908bad90055f'),
+(218, 59, 'subtitle', '<h3>Get start your next awesome project</h3>\r\n<button class="btn btn-hero btn-lg">See all features</button>'),
+(219, 59, '_subtitle', 'field_5908bafc00560'),
+(220, 59, 'background_image', '60'),
+(221, 59, '_background_image', 'field_5908bf13cb0f0'),
+(222, 60, '_wp_attached_file', '2017/05/photo-1416339276121-ba1dfa199912.jpg'),
+(223, 60, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:2500;s:6:"height";i:1875;s:4:"file";s:44:"2017/05/photo-1416339276121-ba1dfa199912.jpg";s:5:"sizes";a:7:{s:9:"thumbnail";a:4:{s:4:"file";s:44:"photo-1416339276121-ba1dfa199912-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:44:"photo-1416339276121-ba1dfa199912-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:44:"photo-1416339276121-ba1dfa199912-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:45:"photo-1416339276121-ba1dfa199912-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:15:"small-thumbnail";a:4:{s:4:"file";s:44:"photo-1416339276121-ba1dfa199912-180x120.jpg";s:5:"width";i:180;s:6:"height";i:120;s:9:"mime-type";s:10:"image/jpeg";}s:16:"square-thumbnail";a:4:{s:4:"file";s:42:"photo-1416339276121-ba1dfa199912-80x80.jpg";s:5:"width";i:80;s:6:"height";i:80;s:9:"mime-type";s:10:"image/jpeg";}s:12:"banner-image";a:4:{s:4:"file";s:44:"photo-1416339276121-ba1dfa199912-920x210.jpg";s:5:"width";i:920;s:6:"height";i:210;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
+(224, 61, '_wp_attached_file', '2017/05/photo-1416339134316-0e91dc9ded92.jpg'),
+(225, 61, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:2500;s:6:"height";i:1875;s:4:"file";s:44:"2017/05/photo-1416339134316-0e91dc9ded92.jpg";s:5:"sizes";a:7:{s:9:"thumbnail";a:4:{s:4:"file";s:44:"photo-1416339134316-0e91dc9ded92-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:44:"photo-1416339134316-0e91dc9ded92-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:44:"photo-1416339134316-0e91dc9ded92-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:45:"photo-1416339134316-0e91dc9ded92-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:15:"small-thumbnail";a:4:{s:4:"file";s:44:"photo-1416339134316-0e91dc9ded92-180x120.jpg";s:5:"width";i:180;s:6:"height";i:120;s:9:"mime-type";s:10:"image/jpeg";}s:16:"square-thumbnail";a:4:{s:4:"file";s:42:"photo-1416339134316-0e91dc9ded92-80x80.jpg";s:5:"width";i:80;s:6:"height";i:80;s:9:"mime-type";s:10:"image/jpeg";}s:12:"banner-image";a:4:{s:4:"file";s:44:"photo-1416339134316-0e91dc9ded92-920x210.jpg";s:5:"width";i:920;s:6:"height";i:210;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}'),
+(226, 62, '_wp_attached_file', '2017/05/photo-1416339684178-3a239570f315.jpg'),
+(227, 62, '_wp_attachment_metadata', 'a:5:{s:5:"width";i:2500;s:6:"height";i:1875;s:4:"file";s:44:"2017/05/photo-1416339684178-3a239570f315.jpg";s:5:"sizes";a:7:{s:9:"thumbnail";a:4:{s:4:"file";s:44:"photo-1416339684178-3a239570f315-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:44:"photo-1416339684178-3a239570f315-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:44:"photo-1416339684178-3a239570f315-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:45:"photo-1416339684178-3a239570f315-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";}s:15:"small-thumbnail";a:4:{s:4:"file";s:44:"photo-1416339684178-3a239570f315-180x120.jpg";s:5:"width";i:180;s:6:"height";i:120;s:9:"mime-type";s:10:"image/jpeg";}s:16:"square-thumbnail";a:4:{s:4:"file";s:42:"photo-1416339684178-3a239570f315-80x80.jpg";s:5:"width";i:80;s:6:"height";i:80;s:9:"mime-type";s:10:"image/jpeg";}s:12:"banner-image";a:4:{s:4:"file";s:44:"photo-1416339684178-3a239570f315-920x210.jpg";s:5:"width";i:920;s:6:"height";i:210;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}');
 
 -- --------------------------------------------------------
 
@@ -477,9 +524,9 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (4, 1, '2017-05-02 14:20:22', '2017-05-02 14:20:22', '', 'thinktrees_logo', '', 'inherit', 'open', 'closed', '', 'thinktrees_logo', '', '', '2017-05-02 14:20:22', '2017-05-02 14:20:22', '', 0, 'http://localhost/thinktrees2/wp-content/uploads/2017/05/thinktrees_logo.png', 0, 'attachment', 'image/png', 0),
 (5, 1, '2017-05-02 14:20:27', '2017-05-02 14:20:27', '{\n    "thinktrees::custom_logo": {\n        "value": 4,\n        "type": "theme_mod",\n        "user_id": 1\n    }\n}', '', '', 'trash', 'closed', 'closed', '', 'a4b68343-6716-491a-9476-fa0461e32692', '', '', '2017-05-02 14:20:27', '2017-05-02 14:20:27', '', 0, 'http://localhost/thinktrees2/2017/05/02/a4b68343-6716-491a-9476-fa0461e32692/', 0, 'customize_changeset', '', 0),
 (6, 1, '2017-05-02 14:20:46', '2017-05-02 14:20:46', 'This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:\n\n<blockquote>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</blockquote>\n\n...or something like this:\n\n<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>\n\nAs a new WordPress user, you should go to <a href="http://localhost/thinktrees2/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!', 'Sample Page', '', 'inherit', 'closed', 'closed', '', '2-revision-v1', '', '', '2017-05-02 14:20:46', '2017-05-02 14:20:46', '', 2, 'http://localhost/thinktrees2/2017/05/02/2-revision-v1/', 0, 'revision', '', 0),
-(7, 1, '2017-05-02 14:20:56', '2017-05-02 14:20:56', '', 'About', '', 'publish', 'closed', 'closed', '', 'about', '', '', '2017-05-02 15:19:42', '2017-05-02 15:19:42', '', 0, 'http://localhost/thinktrees2/?page_id=7', 0, 'page', '', 0),
+(7, 1, '2017-05-02 14:20:56', '2017-05-02 14:20:56', '', 'About', '', 'publish', 'closed', 'closed', '', 'about', '', '', '2017-05-02 16:33:05', '2017-05-02 16:33:05', '', 0, 'http://localhost/thinktrees2/?page_id=7', 0, 'page', '', 0),
 (8, 1, '2017-05-02 14:20:56', '2017-05-02 14:20:56', '', 'About', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2017-05-02 14:20:56', '2017-05-02 14:20:56', '', 7, 'http://localhost/thinktrees2/2017/05/02/7-revision-v1/', 0, 'revision', '', 0),
-(9, 1, '2017-05-02 14:21:04', '2017-05-02 14:21:04', '', 'Programs', '', 'publish', 'closed', 'closed', '', 'programs', '', '', '2017-05-02 14:21:04', '2017-05-02 14:21:04', '', 0, 'http://localhost/thinktrees2/?page_id=9', 0, 'page', '', 0),
+(9, 1, '2017-05-02 14:21:04', '2017-05-02 14:21:04', '', 'Programs', '', 'publish', 'closed', 'closed', '', 'programs', '', '', '2017-05-02 16:34:56', '2017-05-02 16:34:56', '', 0, 'http://localhost/thinktrees2/?page_id=9', 0, 'page', '', 0),
 (10, 1, '2017-05-02 14:21:04', '2017-05-02 14:21:04', '', 'Programs', '', 'inherit', 'closed', 'closed', '', '9-revision-v1', '', '', '2017-05-02 14:21:04', '2017-05-02 14:21:04', '', 9, 'http://localhost/thinktrees2/2017/05/02/9-revision-v1/', 0, 'revision', '', 0),
 (11, 1, '2017-05-02 14:21:16', '2017-05-02 14:21:16', '', 'Setting Down New Roots', '', 'publish', 'closed', 'closed', '', 'setting-down-new-roots', '', '', '2017-05-02 14:21:16', '2017-05-02 14:21:16', '', 0, 'http://localhost/thinktrees2/?page_id=11', 0, 'page', '', 0),
 (12, 1, '2017-05-02 14:21:16', '2017-05-02 14:21:16', '', 'Setting Down New Roots', '', 'inherit', 'closed', 'closed', '', '11-revision-v1', '', '', '2017-05-02 14:21:16', '2017-05-02 14:21:16', '', 11, 'http://localhost/thinktrees2/2017/05/02/11-revision-v1/', 0, 'revision', '', 0),
@@ -521,7 +568,18 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (48, 1, '2017-05-02 15:12:21', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-05-02 15:12:21', '0000-00-00 00:00:00', '', 0, 'http://localhost/thinktrees2/?post_type=testimonial&p=48', 0, 'testimonial', '', 0),
 (49, 1, '2017-05-02 15:12:44', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-05-02 15:12:44', '0000-00-00 00:00:00', '', 0, 'http://localhost/thinktrees2/?post_type=testimonial&p=49', 0, 'testimonial', '', 0),
 (50, 1, '2017-05-02 15:15:10', '2017-05-02 15:15:10', '', 'Mary Bantigue', '', 'publish', 'closed', 'closed', '', 'auto-draft', '', '', '2017-05-02 15:40:21', '2017-05-02 15:40:21', '', 0, 'http://localhost/thinktrees2/?post_type=testimonial&#038;p=50', 0, 'testimonial', '', 0),
-(51, 1, '2017-05-02 15:41:33', '2017-05-02 15:41:33', '', 'Another Testi', '', 'publish', 'closed', 'closed', '', 'another-testi', '', '', '2017-05-02 15:41:33', '2017-05-02 15:41:33', '', 0, 'http://localhost/thinktrees2/?post_type=testimonial&#038;p=51', 0, 'testimonial', '', 0);
+(51, 1, '2017-05-02 15:41:33', '2017-05-02 15:41:33', '', 'Another Testi', '', 'publish', 'closed', 'closed', '', 'another-testi', '', '', '2017-05-02 15:41:33', '2017-05-02 15:41:33', '', 0, 'http://localhost/thinktrees2/?post_type=testimonial&#038;p=51', 0, 'testimonial', '', 0),
+(52, 1, '2017-05-02 16:32:55', '2017-05-02 16:32:55', '', 'anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900', '', 'inherit', 'open', 'closed', '', 'anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900', '', '', '2017-05-02 16:32:55', '2017-05-02 16:32:55', '', 7, 'http://localhost/thinktrees2/wp-content/uploads/2017/05/anime_sky_blue_sunset_sun_light_group_friend_car_clouds_city_1600x900.jpg', 0, 'attachment', 'image/jpeg', 0),
+(53, 1, '2017-05-02 16:34:49', '2017-05-02 16:34:49', '', '17091346_120300002367929247_581375062_o', '', 'inherit', 'open', 'closed', '', '17091346_120300002367929247_581375062_o', '', '', '2017-05-02 16:34:49', '2017-05-02 16:34:49', '', 9, 'http://localhost/thinktrees2/wp-content/uploads/2017/05/17091346_120300002367929247_581375062_o.jpg', 0, 'attachment', 'image/jpeg', 0),
+(54, 1, '2017-05-02 16:52:32', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-05-02 16:52:32', '0000-00-00 00:00:00', '', 0, 'http://localhost/thinktrees2/?post_type=acf&p=54', 0, 'acf', '', 0),
+(55, 1, '2017-05-02 17:00:45', '2017-05-02 17:00:45', '', 'Slider Items', '', 'publish', 'closed', 'closed', '', 'acf_slider-items', '', '', '2017-05-02 17:36:33', '2017-05-02 17:36:33', '', 0, 'http://localhost/thinktrees2/?post_type=acf&#038;p=55', 0, 'acf', '', 0),
+(56, 1, '2017-05-02 17:04:28', '2017-05-02 17:04:28', '', 'slide1', '', 'publish', 'closed', 'closed', '', 'slide1', '', '', '2017-05-02 18:04:29', '2017-05-02 18:04:29', '', 0, 'http://localhost/thinktrees2/?post_type=slider&#038;p=56', 0, 'slider', '', 0),
+(57, 1, '2017-05-02 17:02:55', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2017-05-02 17:02:55', '0000-00-00 00:00:00', '', 0, 'http://localhost/thinktrees2/?post_type=slider&p=57', 0, 'slider', '', 0),
+(58, 1, '2017-05-02 17:37:06', '2017-05-02 17:37:06', '', 'slide2', '', 'publish', 'closed', 'closed', '', 'slide2', '', '', '2017-05-02 18:04:51', '2017-05-02 18:04:51', '', 0, 'http://localhost/thinktrees2/?post_type=slider&#038;p=58', 0, 'slider', '', 0),
+(59, 1, '2017-05-02 17:39:35', '2017-05-02 17:39:35', '', 'Slide3', '', 'publish', 'closed', 'closed', '', 'slide3', '', '', '2017-05-02 18:04:01', '2017-05-02 18:04:01', '', 0, 'http://localhost/thinktrees2/?post_type=slider&#038;p=59', 0, 'slider', '', 0),
+(60, 1, '2017-05-02 18:02:10', '2017-05-02 18:02:10', '', 'photo-1416339276121-ba1dfa199912', '', 'inherit', 'open', 'closed', '', 'photo-1416339276121-ba1dfa199912', '', '', '2017-05-02 18:02:10', '2017-05-02 18:02:10', '', 59, 'http://localhost/thinktrees2/wp-content/uploads/2017/05/photo-1416339276121-ba1dfa199912.jpg', 0, 'attachment', 'image/jpeg', 0),
+(61, 1, '2017-05-02 18:04:25', '2017-05-02 18:04:25', '', 'photo-1416339134316-0e91dc9ded92', '', 'inherit', 'open', 'closed', '', 'photo-1416339134316-0e91dc9ded92', '', '', '2017-05-02 18:04:25', '2017-05-02 18:04:25', '', 56, 'http://localhost/thinktrees2/wp-content/uploads/2017/05/photo-1416339134316-0e91dc9ded92.jpg', 0, 'attachment', 'image/jpeg', 0),
+(62, 1, '2017-05-02 18:04:46', '2017-05-02 18:04:46', '', 'photo-1416339684178-3a239570f315', '', 'inherit', 'open', 'closed', '', 'photo-1416339684178-3a239570f315', '', '', '2017-05-02 18:04:46', '2017-05-02 18:04:46', '', 58, 'http://localhost/thinktrees2/wp-content/uploads/2017/05/photo-1416339684178-3a239570f315.jpg', 0, 'attachment', 'image/jpeg', 0);
 
 -- --------------------------------------------------------
 
@@ -646,10 +704,10 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (12, 1, 'wp_user_level', '10'),
 (13, 1, 'dismissed_wp_pointers', ''),
 (14, 1, 'show_welcome_panel', '1'),
-(15, 1, 'session_tokens', 'a:3:{s:64:"91d6b5d4e0a4565ab908798e1bd0fceac7965508145ac511f9738ae0670f5c40";a:4:{s:10:"expiration";i:1494943964;s:2:"ip";s:3:"::1";s:2:"ua";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:5:"login";i:1493734364;}s:64:"8bd0ad55b523799baea8da02dea95e3c66f8d26927b5abd4439c4473e6ed2909";a:4:{s:10:"expiration";i:1493907172;s:2:"ip";s:3:"::1";s:2:"ua";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:5:"login";i:1493734372;}s:64:"5adae9fe027d2056b9987bc1fda7588c7cda883d82eef842dca83b98372a0d47";a:4:{s:10:"expiration";i:1493912371;s:2:"ip";s:3:"::1";s:2:"ua";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:5:"login";i:1493739571;}}'),
+(15, 1, 'session_tokens', 'a:4:{s:64:"91d6b5d4e0a4565ab908798e1bd0fceac7965508145ac511f9738ae0670f5c40";a:4:{s:10:"expiration";i:1494943964;s:2:"ip";s:3:"::1";s:2:"ua";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:5:"login";i:1493734364;}s:64:"8bd0ad55b523799baea8da02dea95e3c66f8d26927b5abd4439c4473e6ed2909";a:4:{s:10:"expiration";i:1493907172;s:2:"ip";s:3:"::1";s:2:"ua";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:5:"login";i:1493734372;}s:64:"6c129ae3f5f11f501ace3e0e2b3a846af8163fc52a60bbc1b415b19ebeb4089d";a:4:{s:10:"expiration";i:1493914594;s:2:"ip";s:3:"::1";s:2:"ua";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:5:"login";i:1493741794;}s:64:"244d5f7e11794cb756a13434d7be9d8d2d9f9ef1cf2722fcfa4168112c10055d";a:4:{s:10:"expiration";i:1493915184;s:2:"ip";s:3:"::1";s:2:"ua";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:5:"login";i:1493742384;}}'),
 (16, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
-(17, 1, 'wp_user-settings', 'libraryContent=browse'),
-(18, 1, 'wp_user-settings-time', '1493734826'),
+(17, 1, 'wp_user-settings', 'libraryContent=browse&hidetb=1'),
+(18, 1, 'wp_user-settings-time', '1493748237'),
 (19, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:"link-target";i:1;s:11:"css-classes";i:2;s:3:"xfn";i:3;s:11:"description";i:4;s:15:"title-attribute";}'),
 (20, 1, 'metaboxhidden_nav-menus', 'a:2:{i:0;s:12:"add-post_tag";i:1;s:15:"add-post_format";}');
 
@@ -805,17 +863,17 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=170;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=174;
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=176;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=228;
 --
 -- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 --
 -- AUTO_INCREMENT for table `wp_termmeta`
 --
